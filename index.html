@@ -1,31 +1,251 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title id="head-title">Antonio Diaz Zamora</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antonio Díaz Zamora - Electronics & Software Engineer</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header Section */
+        header {
+            background: linear-gradient(135deg, #3498db, #2c3e50);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        /* About Section */
+        .about {
+            background: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .about h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .about p {
+            font-size: 1rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Skills Section */
+        .skills {
+            background: #f9f9f9;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .skills h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .skill-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .skill-item {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 200px;
+            text-align: center;
+        }
+
+        /* Projects Section */
+        .projects {
+            background: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .projects h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .project-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .project-item {
+            background: #f4f4f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        .project-item img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        /* Contact Section */
+        .contact {
+            background: #2c3e50;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .contact h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .contact form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .contact input, .contact textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .contact button {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact button:hover {
+            background: #2980b9;
+        }
+    </style>
 </head>
 <body>
-    <title id="body-title"></title>
-    <div id="div-content">
-        <div id="content-header">
-            <div id="header-1">
-            </div>
-            <div id="header-2">
-            </div>
-            <div id="header-3">
-            </div>
-            <div id="header-4">
+    <!-- Header -->
+    <header>
+        <h1>Your Name</h1>
+        <p>Electronics & Software Engineer | Embedded Systems | Web Development</p>
+    </header>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am an experienced electronics engineer with expertise in designing linear and digital circuits, embedded C/C++ programming (bare metal, FreeRTOS, Linux), and software development. I have a strong background in both hardware and software, enabling me to deliver end-to-end solutions for complex projects.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skill-list">
+                <div class="skill-item">
+                    <h3>Electronics Design</h3>
+                    <p>Linear and Digital Circuits</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Embedded Systems</h3>
+                    <p>Bare Metal, FreeRTOS, Linux</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Software Development</h3>
+                    <p>C++, PHP, JavaScript, MySQL</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Web Technologies</h3>
+                    <p>HTML, CSS, JavaScript</p>
+                </div>
             </div>
         </div>
-        <div id="content-body">
-            <div id="body-1">
-            </div>
-            <div id="body-2">
-            </div>
-            <div id="body-3">
-            </div>
-            <div id="body-4">
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <div class="project-item">
+                    <img src="project1.jpg" alt="Project 1">
+                    <h3>Embedded IoT Device</h3>
+                    <p>Developed an IoT device using FreeRTOS and custom PCB design.</p>
+                </div>
+                <div class="project-item">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Web Application</h3>
+                    <p>Built a dynamic web app using PHP, MySQL, and JavaScript.</p>
+                </div>
+                <div class="project-item">
+                    <img src="project3.jpg" alt="Project 3">
+                    <h3>Linux Driver Development</h3>
+                    <p>Created a custom Linux driver for a peripheral device.</p>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="submit_form.php" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
 </body>
 </html>
