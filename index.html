@@ -308,7 +308,6 @@
     </section>
 
     <!-- Contact Section -->
-    <h2>Contact Us</h2>
     <script>
         function invokeEmail() {
             const email = "tdiazcu@gmail.com";
@@ -319,6 +318,9 @@
             window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(emailBody)}`;
         }
     </script>
-    <button onclick="invokeEmail()">Send us an email</button>
+    <div class="container contact">
+        <h2 class="container">Contact Us</h2>
+        <button class="contact" onclick="invokeEmail()">Send us an email</button>
+    </div>
 </body>
 </html>
