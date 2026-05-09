@@ -308,12 +308,17 @@
     </section>
 
     <!-- Contact Section -->
-    <section class="contact">
-        <div class="container">
-            <form action="mailto:tdiazcu@gmail.com">
-                <button type="submit">Send me email!</button>
-            </form>
-        </div>
-    </section>
+    <h2>Contact Us</h2>
+    <script>
+        function invokeEmail() {
+            const email = "tdiazcu@gmail.com";
+            const subject = "Contact request";
+            const emailBody = "Write your email body here...";
+
+            // encodeURIComponent ensures spaces and symbols don't break the URL
+            window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(emailBody)}`;
+        }
+    </script>
+    <button onclick="invokeEmail()">Send us an email</button>
 </body>
 </html>
